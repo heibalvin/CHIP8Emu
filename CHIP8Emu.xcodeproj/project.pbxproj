@@ -22,6 +22,8 @@
 		39578B552D55F53F00198940 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39578B2D2D55F53900198940 /* GameScene.swift */; };
 		39578B562D55F53F00198940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39578B2E2D55F53E00198940 /* Assets.xcassets */; };
 		39578B572D55F53F00198940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39578B2E2D55F53E00198940 /* Assets.xcassets */; };
+		39578B632D55F59E00198940 /* Chip8GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39578B622D55F59E00198940 /* Chip8GameScene.swift */; };
+		39578B642D55F59E00198940 /* Chip8GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39578B622D55F59E00198940 /* Chip8GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,9 @@
 		39578B4C2D55F53F00198940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39578B4E2D55F53F00198940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39578B4F2D55F53F00198940 /* CHIP8Emu_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CHIP8Emu_macOS.entitlements; sourceTree = "<group>"; };
+		39578B622D55F59E00198940 /* Chip8GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chip8GameScene.swift; sourceTree = "<group>"; };
+		39578B672D55FB0B00198940 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		39578B682D55FB0B00198940 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +69,8 @@
 		39578B252D55F53800198940 = {
 			isa = PBXGroup;
 			children = (
+				39578B672D55FB0B00198940 /* LICENSE */,
+				39578B682D55FB0B00198940 /* README.md */,
 				39578B2A2D55F53900198940 /* CHIP8Emu Shared */,
 				39578B352D55F53E00198940 /* CHIP8Emu iOS */,
 				39578B462D55F53F00198940 /* CHIP8Emu macOS */,
@@ -78,6 +85,7 @@
 				39578B2C2D55F53900198940 /* GameScene.sks */,
 				39578B2D2D55F53900198940 /* GameScene.swift */,
 				39578B2E2D55F53E00198940 /* Assets.xcassets */,
+				39578B622D55F59E00198940 /* Chip8GameScene.swift */,
 			);
 			path = "CHIP8Emu Shared";
 			sourceTree = "<group>";
@@ -222,6 +230,7 @@
 				39578B542D55F53F00198940 /* GameScene.swift in Sources */,
 				39578B392D55F53E00198940 /* GameViewController.swift in Sources */,
 				39578B372D55F53E00198940 /* AppDelegate.swift in Sources */,
+				39578B632D55F59E00198940 /* Chip8GameScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +241,7 @@
 				39578B552D55F53F00198940 /* GameScene.swift in Sources */,
 				39578B4A2D55F53F00198940 /* GameViewController.swift in Sources */,
 				39578B482D55F53F00198940 /* AppDelegate.swift in Sources */,
+				39578B642D55F59E00198940 /* Chip8GameScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
