@@ -13,6 +13,7 @@ class C8PPU {
     var pixels: [Bool]
     var tilesize = 10
     var node: SKNode
+    var xorCollided: Bool = false
     
     func dump() {
         print("PPU: \(cols) x \(rows)")
@@ -38,6 +39,11 @@ class C8PPU {
     
     func coord2pos(col: Int, row: Int) -> CGPoint {
         return CGPoint(x: col * tilesize + tilesize / 2, y: (rows - row - 1) * tilesize + tilesize / 2)
+    }
+    
+    func clearPixels() {
+        pixels = Array(repeating: false, count: cols * rows)
+        node.removeAllChildren()
     }
     
     func getPixel(col: Int, row: Int) -> Bool {
@@ -79,6 +85,7 @@ class C8PPU {
         if (pixel == true) && (value == true) {
             // 1 XOR 1 = 0
             drawPixel(col: col, row: row, value: false)
+            xorCollided = true
             return
         } else if (pixel == false) && (value == false) {
             // 0 XOR 0 = 0 => do nothing pixel is already off
