@@ -24,6 +24,12 @@
 		39578B572D55F53F00198940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39578B2E2D55F53E00198940 /* Assets.xcassets */; };
 		39578B632D55F59E00198940 /* Chip8GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39578B622D55F59E00198940 /* Chip8GameScene.swift */; };
 		39578B642D55F59E00198940 /* Chip8GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39578B622D55F59E00198940 /* Chip8GameScene.swift */; };
+		397EB96D2D571ED6006DFA97 /* C8PPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397EB96C2D571ED6006DFA97 /* C8PPU.swift */; };
+		397EB96E2D571ED6006DFA97 /* C8PPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397EB96C2D571ED6006DFA97 /* C8PPU.swift */; };
+		398501BE2D563D79008AFD4C /* C8MEM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398501BD2D563D79008AFD4C /* C8MEM.swift */; };
+		398501BF2D563D79008AFD4C /* C8MEM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398501BD2D563D79008AFD4C /* C8MEM.swift */; };
+		398501D02D565448008AFD4C /* IBM Logo.ch8 in Resources */ = {isa = PBXBuildFile; fileRef = 398501CF2D565448008AFD4C /* IBM Logo.ch8 */; };
+		398501D12D565448008AFD4C /* IBM Logo.ch8 in Resources */ = {isa = PBXBuildFile; fileRef = 398501CF2D565448008AFD4C /* IBM Logo.ch8 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +52,9 @@
 		39578B622D55F59E00198940 /* Chip8GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chip8GameScene.swift; sourceTree = "<group>"; };
 		39578B672D55FB0B00198940 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		39578B682D55FB0B00198940 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		397EB96C2D571ED6006DFA97 /* C8PPU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C8PPU.swift; sourceTree = "<group>"; };
+		398501BD2D563D79008AFD4C /* C8MEM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C8MEM.swift; sourceTree = "<group>"; };
+		398501CF2D565448008AFD4C /* IBM Logo.ch8 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBM Logo.ch8"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,9 @@
 				39578B2D2D55F53900198940 /* GameScene.swift */,
 				39578B2E2D55F53E00198940 /* Assets.xcassets */,
 				39578B622D55F59E00198940 /* Chip8GameScene.swift */,
+				398501BD2D563D79008AFD4C /* C8MEM.swift */,
+				398501CF2D565448008AFD4C /* IBM Logo.ch8 */,
+				397EB96C2D571ED6006DFA97 /* C8PPU.swift */,
 			);
 			path = "CHIP8Emu Shared";
 			sourceTree = "<group>";
@@ -203,6 +215,7 @@
 			files = (
 				39578B522D55F53F00198940 /* GameScene.sks in Resources */,
 				39578B3C2D55F53E00198940 /* Main.storyboard in Resources */,
+				398501D02D565448008AFD4C /* IBM Logo.ch8 in Resources */,
 				39578B502D55F53F00198940 /* Actions.sks in Resources */,
 				39578B3F2D55F53E00198940 /* LaunchScreen.storyboard in Resources */,
 				39578B562D55F53F00198940 /* Assets.xcassets in Resources */,
@@ -213,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398501D12D565448008AFD4C /* IBM Logo.ch8 in Resources */,
 				39578B4D2D55F53F00198940 /* Main.storyboard in Resources */,
 				39578B532D55F53F00198940 /* GameScene.sks in Resources */,
 				39578B572D55F53F00198940 /* Assets.xcassets in Resources */,
@@ -228,9 +242,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				39578B542D55F53F00198940 /* GameScene.swift in Sources */,
+				398501BE2D563D79008AFD4C /* C8MEM.swift in Sources */,
 				39578B392D55F53E00198940 /* GameViewController.swift in Sources */,
 				39578B372D55F53E00198940 /* AppDelegate.swift in Sources */,
 				39578B632D55F59E00198940 /* Chip8GameScene.swift in Sources */,
+				397EB96D2D571ED6006DFA97 /* C8PPU.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,9 +255,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				39578B552D55F53F00198940 /* GameScene.swift in Sources */,
+				398501BF2D563D79008AFD4C /* C8MEM.swift in Sources */,
 				39578B4A2D55F53F00198940 /* GameViewController.swift in Sources */,
 				39578B482D55F53F00198940 /* AppDelegate.swift in Sources */,
 				39578B642D55F59E00198940 /* Chip8GameScene.swift in Sources */,
+				397EB96E2D571ED6006DFA97 /* C8PPU.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

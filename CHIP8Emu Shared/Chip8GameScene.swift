@@ -8,6 +8,7 @@
 import SpriteKit
 
 class Chip8GameScene: SKScene {
+    var MEM = C8MEM()
     
     class func newGameScene() -> Chip8GameScene {
         let scene = Chip8GameScene(size: CGSize(width: 64 * 10, height: 32 * 10))
@@ -19,4 +20,8 @@ class Chip8GameScene: SKScene {
         return scene
     }
     
+    override func didMove(to view: SKView) {
+        MEM.load(bundle: "IBM Logo")
+        MEM.dump()
+    }
 }
